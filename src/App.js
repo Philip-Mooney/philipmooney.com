@@ -1,7 +1,7 @@
 import './App.css';
 import LinkBox from './modules/linkbox';
 import LinkIcon from './modules/linkicon';
-import { faDiscord, faTelegram, faTwitter, faFacebook, faInstagram, faTiktok, faTwitch } from '@fortawesome/free-brands-svg-icons';
+import { faDiscord, faTelegram, faTwitter, faFacebook, faInstagram, faTiktok, faTwitch, faLinkedin, faBitcoin, faMonero, faEthereum, faPaypal, faJenkins, faGitAlt, faGithub, faDocker, faSteam, faXbox, faPlaystation } from '@fortawesome/free-brands-svg-icons';
 import { faAt } from '@fortawesome/free-solid-svg-icons';
 import TwitchEmbed from './modules/twitchEmbed';
 import photo from './assets/photo.jpg'
@@ -29,6 +29,11 @@ function App() {
               link="mailto:contact@philipmooney.com"
           />
           <LinkIcon
+              alt="LinkedIn"
+              favicon={faLinkedin}
+              link="https://www.linkedin.com/in/philipcmooney/"
+          />
+          <LinkIcon
               alt="Twitter"
               favicon={faTwitter}
               link="https://twitter.com/philip_mooney"
@@ -44,14 +49,75 @@ function App() {
               link="https://instagram.com/philip.c.mooney"
           />
           <LinkIcon
+            alt="TikTok"
+            favicon={faTiktok}
+            link="https://tiktok.com/@philipmooney"
+          />
+        </div>
+        <div class="App-linkicon-container">
+          <LinkIcon
               alt="Twitch"
               favicon={faTwitch}
               link="https://twitch.tv/philipmooney"
           />
           <LinkIcon
-            alt="TikTok"
-            favicon={faTiktok}
+            alt="Steam"
+            favicon={faSteam}
+            link="https://steamcommmunity.com/"
+          />
+          {/* <LinkIcon
+            alt="Xbox"
+            favicon={faXbox}
+            link="https://philipmooney.com"
+          />
+          <LinkIcon
+            alt="PlayStation"
+            favicon={faPlaystation}
+            link="https://philipmooney.com"
+          /> */}
+        </div>
+        <div class="App-linkicon-container">
+          {/* <LinkIcon
+            alt="Jenkins"
+            favicon={faJenkins}
             link="https://tiktok.com/@philipmooney"
+          /> */}
+          <LinkIcon
+            alt="Git"
+            favicon={faGitAlt}
+            link="https://gitea.philipmooney.com"
+          />
+          <LinkIcon
+            alt="GitHub"
+            favicon={faGithub}
+            link="https://github.com/philip_mooney"
+          />
+          <LinkIcon
+            alt="Docker"
+            favicon={faDocker}
+            link="https://hub.docker.com/philipmooney"
+          />
+        </div>
+        <div class="App-linkicon-container">
+          {/* <LinkIcon
+            alt="Revolut"
+            favicon={faRevolut}
+          /> */}
+          <LinkIcon
+            alt="PayPal"
+            favicon={faPaypal}
+          />
+          <LinkIcon
+            alt="Bitcoin"
+            favicon={faBitcoin}
+          />
+          <LinkIcon
+            alt="Ethereum"
+            favicon={faEthereum}
+          />
+          <LinkIcon
+            alt="Monero"
+            favicon={faMonero}
           />
         </div>
         <div class="App-linkbox-container">

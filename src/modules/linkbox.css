@@ -1,0 +1,17 @@
+.linkbox-container {
+    border: 0.1em solid white;
+    border-radius: 0.25em;
+    width: 500px;
+    max-height: 40px;
+    margin: 10px;
+}
+
+.linkbox-link {
+    text-decoration: none;
+}
+
+.linkbox-text {
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}

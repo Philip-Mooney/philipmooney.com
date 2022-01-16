@@ -24,6 +24,6 @@
   border: 2px solid white;
 }
 
-.App-linkbox-container {
-  margin-top: 30px;
+.App-linkbox-container, .App-linkicon-container {
+  padding: 10px;
 }
